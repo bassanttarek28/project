@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background: linear-gradient(to right, #a9f5f1, #ffffff);
+    color: rgb(0, 0, 0);
+}
+
+
+.Strix button {
+    padding: 12px 25px;
+    background: rgb(16, 97, 81);
+    color: #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.rog {
+    background-color: #f8f8f8;
+    width: 500px;
+    height: 200px;
+    border-radius: 5%;
+    display: flex;
+}
+
+.krl img {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.sit button {
+    background-color: rgb(33, 102, 98);
+    border: 10px solid rgb(33, 102, 98);
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.sit p {
+    margin-top: 10px;
+    color: gray;
+    font-size: 10px;
+}
+
+.sit h4 {
+    margin-bottom: 0px;
+}
+
+.stric {
+    display: flex;
+}
+
+.mer {
+    background-color: #f8f8f8;
+    width: 500px;
+    height: 200px;
+    border-radius: 5%;
+    display: flex;
+    margin-left: 50px;
+}
+
+.sit {
+    margin-left: 20px;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-text button {
+    padding: 12px 25px;
+    background: rgb(16, 97, 81);
+    color: #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Products */
+.products {
+    padding: 150px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #1c5956;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
